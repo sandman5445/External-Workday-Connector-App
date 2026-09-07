@@ -1,0 +1,17 @@
+/* Bumping the root font-size scales all of Canvas Kit's rem-based
+   typography and spacing tokens up proportionally (default browser
+   base is 16px; this brings it to 18px). */
+   html {
+    font-size: 112.5%;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    color: #9ca3af !important;
+    opacity: 1 !important;
+  }
