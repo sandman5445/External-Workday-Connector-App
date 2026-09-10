@@ -93,7 +93,7 @@ export async function putJobApplicationCustomData(jobApplicationId, fields) {
             <custom:lastName>${escapeXml(fields.lastName)}</custom:lastName>
             <custom:phone>${escapeXml(fields.phone)}</custom:phone>
             <custom:email>${escapeXml(fields.email)}</custom:email>
-            <custom:licenseNumber2>${escapeXml(fields.licenseNumber ?? "")}</custom:licenseNumber2>
+            <custom:licenseId>${escapeXml(fields.licenseNumber ?? "")}</custom:licenseId>
             <custom:dateOfBirth>${escapeXml(fields.dateOfBirth ?? "")}</custom:dateOfBirth>
             <custom:expirationDate>${escapeXml(fields.expirationDate ?? "")}</custom:expirationDate>
             <custom:address>${escapeXml(fields.address ?? "")}</custom:address>
